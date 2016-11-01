@@ -105,4 +105,4 @@ apps:
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
    <strong>JVM</strong>: Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan. 
-   Nyligen har jag gjort flera saker i Ruby samt Ruby on Rails. Även mycket Javascript. Databaser <MySQL mest> är även det en stark sida.)
+   Nyligen har jag gjort flera saker i Ruby samt Ruby on Rails. Även mycket Javascript. Databaser (MySQL mest) är även det en stark sida.)
