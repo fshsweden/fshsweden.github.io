@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Peter Andersson
+twitter_username: fshsweden
+name: Peter Andersson
 
 # Build settings
 markdown: kramdown
@@ -12,22 +12,19 @@ primarylinks:
  - title: Blog
    url: http://automateddeveloper.blogspot.com/
  - title: GitHub
-   url: https://github.com/robhinds
+   url: https://github.com/fshsweden
  - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
+   url: http://stackoverflow.com/users/587238/peter-andersson
  - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: https://dzone.com/users/405821/fshsweden.html
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
-
+   url: https://www.linkedin.com/in/peterandersson
+   
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
  - Java
- - JPA
+ - Groovy
+ - Maven,Ant,Gradle
  - SQL
  - REST
  - Tech Architecture
