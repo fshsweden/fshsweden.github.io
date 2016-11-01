@@ -34,7 +34,7 @@ blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
 
 #Work experience is required
 roles:
- - title: Systemanalys av säljverktyg
+ - title: Systemanalys av saljverktyg
    start: April 2016
    end: Maj 2016
    employer: Gadder AB
@@ -43,17 +43,17 @@ roles:
    start: April 2014
    end: September 2016
    employer: Crozet AB
-   description: Java/MySQL på OSX/Linux/Windows 
+   description: Java MySQL på OSX Linux Windows 
  - title: Programmerare 
    start: April 2013
    end: Mars 2014
    employer: FSH Sweden AB
-   description: Ett flertal mindre konsultuppdrag, men även en stor del fritid där jag bl.a lärde mig Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor(JS) och Laravel(PHP)
+   description: Ett flertal mindre konsultuppdrag, men aven en stor del fritid dar jag bl.a larde mig Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel
 - title: Systems Architect 
    start: Mars 2010
    end: Mars 2014
    employer: Jones Borreguero Inversiones SL, Madrid
-   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-börsen (Madrid). Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014. Språk/Miljöer : OSX, Java, Swing, MySQL
+   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-borsen i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014. Språk och miljöer var OSX, Java, Swing, MySQL
 
 #Education is required
 education:
