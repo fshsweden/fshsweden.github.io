@@ -48,15 +48,12 @@ roles:
    start: April 2013
    end: Mars 2014
    employer: FSH Sweden AB
-   description: Ett flertal mindre konsultuppdrag, men även en stor del fritid där jag bl.a lärde mig 
-   Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor(JS) och Laravel(PHP)
+   description: Ett flertal mindre konsultuppdrag, men även en stor del fritid där jag bl.a lärde mig Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor(JS) och Laravel(PHP)
 - title: Systems Architect 
    start: Mars 2010
    end: Mars 2014
    employer: Jones Borreguero Inversiones SL, Madrid
-   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-börsen (Madrid). 
-Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014.
-Språk/Miljöer : OSX, Java, Swing, MySQL
+   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-börsen (Madrid). Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014. Språk/Miljöer : OSX, Java, Swing, MySQL
 
 #Education is required
 education:
