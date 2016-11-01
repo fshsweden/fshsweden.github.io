@@ -1,7 +1,8 @@
 # Site settings
-title: Peter Andersson
-twitter_username: fshsweden
-name: Peter Andersson
+
+title:  Peter_Andersson
+twitter_username:  fshsweden
+name:  Peter Andersson
 
 # Build settings
 markdown: kramdown
@@ -49,7 +50,7 @@ roles:
    end: Mars 2014
    employer: FSH Sweden AB
    description: Ett flertal mindre konsultuppdrag, men aven en stor del fritid dar jag bl.a larde mig Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel
-- title: Systems Architect 
+ - title: Systems Architect 
    start: Mars 2010
    end: Mars 2014
    employer: Jones Borreguero Inversiones SL, Madrid
