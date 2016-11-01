@@ -11,7 +11,7 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://automateddeveloper.blogspot.com/
+   url: http://fsh.se
  - title: GitHub
    url: https://github.com/fshsweden
  - title: StackOverflow
@@ -24,14 +24,19 @@ primarylinks:
 #Any buzzword skills you want to include
 skills:
  - Java
+ - Linux, installation och administration
+ - Ruby och Ruby on Rails
  - Groovy
+ - Javascript, Coffeescript
+ - JQuery
+ - Node.js, npm, yarn
  - Maven,Ant,Gradle
- - SQL
+ - SQL, MySQL, SQLite
  - REST
- - Tech Architecture
-
+ 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
+#blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
+blogfeed: http://fsh.se/feed
 
 #Work experience is required
 roles:
@@ -50,58 +55,87 @@ roles:
    end: Mars 2014
    employer: FSH Sweden AB
    description: Ett flertal mindre konsultuppdrag, men aven en stor del fritid dar jag bl.a larde mig Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel
- - title: Systems Architect 
+ - title: System Arkitekt
    start: Mars 2010
    end: Mars 2014
    employer: Jones Borreguero Inversiones SL, Madrid
    description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-borsen i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014. Språk och miljöer var OSX, Java, Swing, MySQL
+ - title: System Arkitekt
+   start: Juni 2009 
+   end: Januari 2010
+   employer: 
+   description: Deltog i designen av ett större tradingsystem. Systemet omfattade en generell tradingmodell som kan appliceras på alla elektroniska börser. Egenskaper värda att nämnas är realtidsvärdering av derivat mm samt riskhantering i realtid. Systemet kan dessutom hantera handel i olika valutor samt strukturerade konton/books, med s.k. hedging på flera nivåer. Konton kan hanteras av flera traders (stafettmodell) och därmed ge möjlighet till handel/riskhantering hela dygnet över hela världen. En avancerad distributionsmodell för priser/information ingår också. Systemet implementerades aldrig pga ändrade marknadsförutsättningar och minskade handelsvolymer. 
+ - title: System Arkitekt
+   start: Januari 2006
+   end: Maj 2009
+   employer: 68 Technologies AB
+   description: Designade och implementerade ett “Home Control” system med video streaming. Ledde ett team på 5 personer, varav 3 kinesiska konsulter i implementationen av främst nätverksdelen, servrarna, meddellandeprotokollet och klient-API:et. Systemet vidareutvecklades senare till qrodo.com, som sände live-video från bl.a. svenska speedwayserien, bordtennis, badminton med mera med mera. Qrodo.com lades ner 2015.
+ - title: System Manager
+   start: Januari 1997 
+   end: December 2005
+   employer: FSH Zug AG / FSH Sweden AB
+   description: Designade, implementerade och skötte driften av ett avancerat fleranvändasystem för handel av derivat. C:a 10 användare på två kontor, Zug (Schweiz) och Madrid (Spanien).  Riskhantering I realtid, flera automathandelsapplikationer samt en vid den tiden världsledande handlarapplikation. Första 5 åren i Schweiz, resten i Gävle.
+ - title: Systemansvarig för OM:s (numera NASDAQ) handlarapplikation på Windows (“Click Trade”)
+   start: Maj 1994
+   end: December 1996
+   employer: OM Technology AB
+   description: Porterade OMex Click Trade från VAX/VMS till Windows NT 1.0. Modifierade och vidareutvecklade mjukvaran med handelsfunktioner för bl.a ränteoptioner. Blev systemansvarig för Click Trade i OMex-systemet. Deltog i försäljning av OMex till bl.a ASX i Sydney och CBOT och CME i Chicago.
+ - title: Konsult, Projektledare
+   start: Maj 1991
+   end: Maj 1994
+   employer: WM-Data Teknikkonsult AB
+   description: Konsult I C/C++, bl.a mot Landstinget i Stockholm. Projektledare i ett flertal projekt, t.ex mot Rikspolisstyrelsen (ekonomienheten).
+ - title: Konsult
+   start: Oktober 1988
+   end: December 1990
+   employer: Ardencia AB
+   description: IT-konsult, huvudsakligen i C och C++. Produktutveckling för Bonniers, SIX, FinData, Nyhetsbyrån Direkt, Dagens Industri etc.
+ - title: Konsult
+   start: April 1986
+   end: September 1988
+   employer: Fyra Linjer AB
+   description: Konsult, huvudsakligen i DataFlex, Turbo Pascal och C. Kunder var Landstinget, Ericsson, ODAB mfl. Utvecklade en editor för DataFlex som marknadsfördes och såldes av företaget
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: 
+   date: 
+   subject: 
+   school: 
 
 #This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+#coursera:
+#   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+#   courses:
+#    - title: Functional Programming Principles in Scala
+#      link: https://www.coursera.org/course/progfun
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+#      date: September 16, 2013
+#    - title: Algorithms Design and Analysis, Part 1
+#      link: https://www.coursera.org/course/progfun
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
+#      date: April 28, 2014
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/learning-neural-networks
- - robhinds/akka-http-rest-api-sample
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/food2vec
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
-
+ - fshsweden/IB-api-972-beta-feb03-modified
+ - fshsweden/IB-API
+ 
 #Stackoverflow flair is optional
 stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+   profileurl: http://stackoverflow.com/users/587238/peter-andersson
+   flairimageurl: http://stackoverflow.com/users/flair/587238.png
 
 #Mobile apps section is optional
 apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
+ - name: Valbo HC Istider 2012
+   platform: IOS
+   url: 
+   description: Ett system för att se bokningar av Valbo ishall
+ - name: Flappy Felipe
+   platform: IOS
+   url: 
+   description: En enkel Flappy Birds-klon
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 #additionalinfo: |
