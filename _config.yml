@@ -24,6 +24,7 @@ primarylinks:
 #Any buzzword skills you want to include
 skills:
  - Java
+ - C#, Azure, Service Fabric, ASP MVC, Web API
  - Linux, installation och administration
  - Ruby och Ruby on Rails
  - Groovy
@@ -40,6 +41,11 @@ blogfeed: http://fsh.se/feed
 
 #Work experience is required
 roles:
+ - title: Programmerare
+   start: Nov 2016
+   end: Jan 2017
+   employer: SaveLend AB
+   description: Hjälpte till med leverans av gravt försenat system + systemdokumentation
  - title: Systemanalys av saljverktyg
    start: April 2016
    end: Maj 2016
