@@ -41,6 +41,11 @@ blogfeed: http://fsh.se/feed
 
 #Work experience is required
 roles:
+ - title: Programmerare/Designer
+   start: Feb 2017
+   end: 
+   employer: FSH Sweden AB
+   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc.
  - title: Programmerare
    start: Nov 2016
    end: Jan 2017
