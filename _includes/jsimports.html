@@ -8,7 +8,7 @@
 			url      : 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent("{{site.blogfeed}}"),
 			dataType : 'json',
 			success  : function (data, textStatus, jqXHR) {
-				alert('log feed success');
+				alert('log feed success' + data.responseData + ' ' + textStatus);
 				if (data.responseData.feed && data.responseData.feed.entries) {
 					$.each(data.responseData.feed.entries, function (i, e) {
 						$('#blogArticles').append("<a target='_blank' href='" + e.link + "'>" + e.title + "</a><br><br>")
