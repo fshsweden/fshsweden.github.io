@@ -129,8 +129,8 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - https://github.com/fshsweden/FinTools
- - https://github.com/fshsweden/AnalyzeIt
+ - fshsweden/FinTools
+ - fshsweden/AnalyzeIt
  - fshsweden/IB-api-972-beta-feb03-modified
  - fshsweden/IB-API
  
