@@ -133,7 +133,7 @@ github:
  - fshsweden/AnalyzeIt
  - fshsweden/IB-api-972-beta-feb03-modified
  - fshsweden/IB-API
- 
+
 #Stackoverflow flair is optional
 stackoverflow:
    profileurl: http://stackoverflow.com/users/587238/peter-andersson
@@ -141,11 +141,11 @@ stackoverflow:
 
 #Mobile apps section is optional
 apps:
- - name: Valbo HC Istider 2012 (now removed)
+ - name: Valbo HC Istider 2012 (now removed frmo AppStore)
    platform: IOS
    url: 
    description: Ett system för att se bokningar av Valbo ishall
- - name: Flappy Felipe (now removed)
+ - name: Flappy Felipe (now removed frmo AppStore)
    platform: IOS
    url: 
    description: En enkel Flappy Birds-klon
