@@ -24,16 +24,16 @@ primarylinks:
 #Any buzzword skills you want to include
 skills:
  - Java
- - C#, Azure, Service Fabric, ASP MVC, Web API
  - Linux, installation och administration
  - Ruby och Ruby on Rails
+ - Javascript, Coffeescript, Typescript
+ - C#, Azure, Service Fabric, ASP MVC, Web API
  - Groovy
- - Javascript, Coffeescript
- - JQuery
+ - JQuery, React, Angular
  - Node.js, npm, yarn
- - Maven,Ant,Gradle
- - SQL, MySQL, SQLite
- - REST
+ - Maven, Ant, Gradle
+ - SQL, MySQL, Postgres, SQLite
+ - REST, Api-design
  
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
@@ -45,13 +45,13 @@ roles:
    start: Feb 2017
    end: 
    employer: FSH Sweden AB
-   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc.
+   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc. Java MySQL på OSX Linux Windows 
  - title: Programmerare
    start: Nov 2016
    end: Jan 2017
    employer: SaveLend AB
    description: Hjälpte till med leverans av gravt försenat system + systemdokumentation
- - title: Systemanalys av saljverktyg
+ - title: Systemanalys av säljverktyg
    start: April 2016
    end: Maj 2016
    employer: Gadder AB
@@ -60,7 +60,7 @@ roles:
    start: April 2014
    end: September 2016
    employer: Crozet AB
-   description: Java MySQL på OSX Linux Windows 
+   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc. Java MySQL på OSX Linux Windows 
  - title: Programmerare 
    start: April 2013
    end: Mars 2014
@@ -129,6 +129,8 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
+ - https://github.com/fshsweden/FinTools
+ - https://github.com/fshsweden/AnalyzeIt
  - fshsweden/IB-api-972-beta-feb03-modified
  - fshsweden/IB-API
  
@@ -139,11 +141,11 @@ stackoverflow:
 
 #Mobile apps section is optional
 apps:
- - name: Valbo HC Istider 2012
+ - name: Valbo HC Istider 2012 (now removed)
    platform: IOS
    url: 
    description: Ett system för att se bokningar av Valbo ishall
- - name: Flappy Felipe
+ - name: Flappy Felipe (now removed)
    platform: IOS
    url: 
    description: En enkel Flappy Birds-klon
@@ -151,4 +153,4 @@ apps:
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
    Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan. 
-   Nyligen har jag gjort flera saker JS/ES6. Främst React och Meteor.
+   Nyligen har jag gjort flera saker i JS/ES6/Typescript. Främst Angular, React och Meteor.
