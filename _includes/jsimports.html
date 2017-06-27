@@ -5,7 +5,7 @@
 	<script  type="text/javascript">
 	(function() {
 		$.ajax({
-			url      : 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent("{{site.blogfeed}}"),
+			url      : 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent("{{site.blogfeed}}"),
 			dataType : 'json',
 			success  : function (data, textStatus, jqXHR) {
 				alert('log feed success');
