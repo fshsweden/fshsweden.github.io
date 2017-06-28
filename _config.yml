@@ -20,7 +20,7 @@ primarylinks:
    url: https://dzone.com/users/405821/fshsweden.html
  - title: LinkedIn
    url: https://www.linkedin.com/in/peterandersson
-   
+
 #Any buzzword skills you want to include
 skills:
  - Java
@@ -34,7 +34,7 @@ skills:
  - Maven, Ant, Gradle
  - SQL, MySQL, Postgres, SQLite
  - REST, Api-design
- 
+
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
 blogfeed: https://fsh.se/feed
@@ -43,9 +43,9 @@ blogfeed: https://fsh.se/feed
 roles:
  - title: Programmerare/Designer
    start: Feb 2017
-   end: 
+   end:
    employer: FSH Sweden AB
-   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc. Java MySQL på OSX Linux Windows 
+   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. NASDAQ, NYSE, AMEX, SFB etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
  - title: Programmerare
    start: Nov 2016
    end: Jan 2017
@@ -56,12 +56,12 @@ roles:
    end: Maj 2016
    employer: Gadder AB
    description: Analyserade ett existerande system, identifierade svagheter och utfärdade rekommendation för hur fortsatt utveckling skulle ske
- - title: Designer och programmerare. 
+ - title: Designer och programmerare.
    start: April 2014
    end: September 2016
    employer: Crozet AB
-   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc. Java MySQL på OSX Linux Windows 
- - title: Programmerare 
+   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc. Java MySQL på OSX Linux Windows
+ - title: Programmerare
    start: April 2013
    end: Mars 2014
    employer: FSH Sweden AB
@@ -72,17 +72,17 @@ roles:
    employer: Jones Borreguero Inversiones SL, Madrid
    description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-börsen i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014. Språk och miljöer var OSX, Java, Swing, MySQL
  - title: System Arkitekt
-   start: Juni 2009 
+   start: Juni 2009
    end: Januari 2010
-   employer: 
-   description: Deltog i designen av ett större tradingsystem. Systemet omfattade en generell tradingmodell som kan appliceras på alla elektroniska börser. Egenskaper värda att nämnas är realtidsvärdering av derivat mm samt riskhantering i realtid. Systemet kan dessutom hantera handel i olika valutor samt strukturerade konton/books, med s.k. hedging på flera nivåer. Konton kan hanteras av flera traders (stafettmodell) och därmed ge möjlighet till handel/riskhantering hela dygnet över hela världen. En avancerad distributionsmodell för priser/information ingår också. Systemet implementerades aldrig pga ändrade marknadsförutsättningar och minskade handelsvolymer. 
+   employer:
+   description: Deltog i designen av ett större tradingsystem. Systemet omfattade en generell tradingmodell som kan appliceras på alla elektroniska börser. Egenskaper värda att nämnas är realtidsvärdering av derivat mm samt riskhantering i realtid. Systemet kan dessutom hantera handel i olika valutor samt strukturerade konton/books, med s.k. hedging på flera nivåer. Konton kan hanteras av flera traders (stafettmodell) och därmed ge möjlighet till handel/riskhantering hela dygnet över hela världen. En avancerad distributionsmodell för priser/information ingår också. Systemet implementerades aldrig pga ändrade marknadsförutsättningar och minskade handelsvolymer.
  - title: System Arkitekt
    start: Januari 2006
    end: Maj 2009
    employer: 68 Technologies AB
    description: Designade och implementerade ett “Home Control” system med video streaming. Ledde ett team på 5 personer, varav 3 kinesiska konsulter i implementationen av främst nätverksdelen, servrarna, meddellandeprotokollet och klient-API:et. Systemet vidareutvecklades senare till qrodo.com, som sände live-video från bl.a. svenska speedwayserien, bordtennis, badminton med mera med mera. Qrodo.com lades ner 2015.
  - title: System Manager
-   start: Januari 1997 
+   start: Januari 1997
    end: December 2005
    employer: FSH Zug AG / FSH Sweden AB
    description: Designade, implementerade och skötte driften av ett avancerat fleranvändasystem för handel av derivat. C:a 10 användare på två kontor, Zug (Schweiz) och Madrid (Spanien).  Riskhantering I realtid, flera automathandelsapplikationer samt en vid den tiden världsledande handlarapplikation. Första 5 åren i Schweiz, resten i Gävle.
@@ -109,10 +109,10 @@ roles:
 
 #Education is required
 education:
- - level: 
-   date: 
-   subject: 
-   school: 
+ - level:
+   date:
+   subject:
+   school:
 
 #This section is optional (as is the image link below)
 #coursera:
@@ -141,16 +141,16 @@ stackoverflow:
 
 #Mobile apps section is optional
 apps:
- - name: Valbo HC Istider 2012 (now removed frmo AppStore)
+ - name: Valbo HC Istider 2012 (now removed from AppStore)
    platform: IOS
-   url: 
+   url:
    description: Ett system för att se bokningar av Valbo ishall
- - name: Flappy Felipe (now removed frmo AppStore)
+ - name: Flappy Felipe (now removed from AppStore)
    platform: IOS
-   url: 
+   url:
    description: En enkel Flappy Birds-klon
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan. 
+   Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan.
    Nyligen har jag gjort flera saker i JS/ES6/Typescript. Främst Angular, React och Meteor.
