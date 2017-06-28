@@ -129,10 +129,13 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
+ - fshsweden/ib-ruby
  - fshsweden/FinTools
- - fshsweden/AnalyzeIt
+ - fshsweden/gui
  - fshsweden/IB-api-972-beta-feb03-modified
  - fshsweden/IB-API
+ - fshsweden/java_meteor_example
+ - fshsweden/meteor_example
 
 #Stackoverflow flair is optional
 stackoverflow:
