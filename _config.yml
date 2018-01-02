@@ -45,12 +45,17 @@ roles:
    start: Feb 2017
    end:
    employer: FSH Sweden AB
-   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. NASDAQ, NYSE, AMEX, SFB etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
+   description: Utvecklar StockTips, ett öervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. 
  - title: Programmerare
    start: Nov 2016
    end: Jan 2017
    employer: SaveLend AB
    description: Hjälpte till med leverans av gravt försenat system + systemdokumentation
+ - title: Programmerare/Designer
+   start: Jun 2016
+   end:
+   employer: Crozet AB
+   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. NASDAQ, NYSE, AMEX, SFB etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
  - title: Systemanalys av säljverktyg
    start: April 2016
    end: Maj 2016
