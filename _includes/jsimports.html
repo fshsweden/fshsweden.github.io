@@ -1,40 +1,82 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
 <script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
 
 {% if site.blogfeed %}
-	<script  type="text/javascript">
-	(function() {
-		$.ajax({
-			url      : 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent("{{site.blogfeed}}"),
-			dataType : 'json',
-			success  : function (data, textStatus, jqXHR) {
-				if (data.responseData.feed && data.responseData.feed.entries) {
-					$.each(data.responseData.feed.entries, function (i, e) {
-						$('#blogArticles').append("<a target='_blank' href='" + e.link + "'>" + e.title + "</a><br><br>")
-					});
-				}
-			},
-			error: function(jqXHR, textStatus, errorThrown ) {
-				// alert('log feed error ' + textStatus + ' ' + errorThrown);
-			}
-		});
-	})();
-	</script>
+<script type="text/javascript">
+    (function() {
+        $.ajax({
+            url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent("{{site.blogfeed}}"),
+            dataType: 'json',
+            success: function(data, textStatus, jqXHR) {
+                if (data.responseData.feed && data.responseData.feed.entries) {
+                    $.each(data.responseData.feed.entries, function(i, e) {
+                        $('#blogArticles').append("<a target='_blank' href='" + e.link + "'>" + e.title + "</a><br><br>")
+                    });
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                // alert('log feed error ' + textStatus + ' ' + errorThrown);
+            }
+        });
+    })();
+</script>
 
+
+<style type="text/css">
+    p.emphasis {
+        background-color: beige;
+    }
+    
+    span.link {
+        color: red;
+        cursor: pointer;
+    }
+</style>
 
 <script type="text/javascript">
-	$( "#introBlurb" ).click(function() {
-	  //alert( "Handler for .click() called." );
-	  //$(this).css('background-color', 'red');
-	  
+    $("#introBlurb").click(function() {
+        //alert( "Handler for .click() called." );
+        //$(this).css('background-color', 'red');
 
-	  /*
-	  $(this).fadeOut(250, function() {});
-	  $(this).fadeIn (250, function() {});
-	  */
-	  
-	});	
+
+        /*
+        $(this).fadeOut(250, function() {});
+        $(this).fadeIn (250, function() {});
+        */
+
+    });
+
+    $("p").hover(function() {
+
+
+        if ($(this).hasClass("emphasis"))
+            $(this).removeClass("emphasis");
+        else
+            $(this).addClass("emphasis");
+    });
+
+    $("span.where").hover(function() {
+
+        console.log("SPAN!")
+
+        if ($(this).hasClass("link"))
+            $(this).removeClass("link");
+        else
+            $(this).addClass("link");
+    });
+
+    $("span.label").hover(function() {
+        $(this).animate({
+            height: "2em"
+        });
+    });
+
+    $(function() {
+        $(document).tooltip();
+    });
 </script>
 
 {% endif %}
-

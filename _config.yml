@@ -24,16 +24,29 @@ primarylinks:
 #Any buzzword skills you want to include
 skills:
  - Java
- - Linux, installation och administration
- - Ruby och Ruby on Rails
- - Javascript, Coffeescript, Typescript
- - C#, Azure, Service Fabric, ASP MVC, Web API
+ - Linux
+ - Ruby on Rails
+ - Javascript
+ - Coffeescript
+ - Typescript
+ - C#
+ - MS Azure
+ - MS Service Fabric
+ - MS ASP MVC
+ - MS Web API
  - Groovy
- - JQuery, React, Angular
- - Node.js, npm, yarn
- - Maven, Ant, Gradle
- - SQL, MySQL, Postgres, SQLite
- - REST, Api-design
+ - JQuery
+ - React
+ - Angular
+ - Node.js
+ - Maven
+ - Ant
+ - Gradle
+ - MySQL
+ - Postgres
+ - SQLite
+ - REST
+ - Api-design
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
