@@ -62,13 +62,17 @@ roles:
  - title: Programmerare
    start: Nov 2016
    end: Jan 2017
-   employer: SaveLend AB
+   employer: <a target="_blank" href="https://loanstep.se/">SaveLend AB</a>
    description: Hjälpte till med leverans av gravt försenat system + systemdokumentation
  - title: Programmerare/Designer
    start: Jun 2016
    end:
    employer: Crozet AB
-   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. NASDAQ, NYSE, AMEX, SFB etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
+   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. 
+    <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>, 
+    <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, 
+    <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, 
+    <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
  - title: Systemanalys av säljverktyg
    start: April 2016
    end: Maj 2016
@@ -78,7 +82,7 @@ roles:
    start: April 2014
    end: September 2016
    employer: Crozet AB
-   description: Alpha Trading - an automatic stock and futures trading system. NASDAQ, NYSE, AMEX, SFB etc. Java MySQL på OSX Linux Windows
+   description: Alpha Trading - an automatic stock and futures trading system. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>,     <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc. Java MySQL på OSX,Linux,Windows
  - title: Programmerare
    start: April 2013
    end: Mars 2014
@@ -88,7 +92,7 @@ roles:
    start: Mars 2010
    end: Mars 2013
    employer: Jones Borreguero Inversiones SL, Madrid
-   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på MEFF-börsen i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med Orc Trader (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (Black&Scholes och Binomial tree model) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (arbitrage). Användes I produktion mellan Jan 2011 och våren 2014. Språk och miljöer var OSX, Java, Swing, MySQL
+   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på <a target="_blank" href="http://www.meff.es/esp/Home">MEFF-börsen</a> i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med <a target="_blank" href="https://www.itiviti.com/products-services/products/orc-trader-itiviti/">Orc Trader</a> (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (<a target="_blank" href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black&Scholes</a> och <a target="_blank" href="https://en.wikipedia.org/wiki/Binomial_options_pricing_model">Binomial tree model</a>) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (<a target="_blank" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a>). Användes I produktion mellan Jan 2011 och våren 2014. Språk och miljöer var OSX, Java, Swing, MySQL
  - title: System Arkitekt
    start: Juni 2009
    end: Januari 2010
