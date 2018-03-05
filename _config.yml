@@ -68,11 +68,7 @@ roles:
    start: Jun 2016
    end:
    employer: Crozet AB
-   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. 
-    <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>, 
-    <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, 
-    <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, 
-    <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
+   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>, <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc. Desktop och serverkod i Java, MySQL, OSX Linux Windows
  - title: Systemanalys av säljverktyg
    start: April 2016
    end: Maj 2016
