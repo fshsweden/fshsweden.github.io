@@ -1,31 +1,78 @@
+<style>
+	table {
+		font-size: 0.8em;
+	}
+
+	.tools {
+		text-decoration: aquamarine;
+		font-style: italic;
+	}
+
+	thead {
+		
+	}
+	th {
+		background: aliceblue;
+	}
+	tr:nth-child(4n),
+	tr:nth-child(4n-1) {
+		background: aliceblue;
+	}
+
+	tr:nth-child(4n-2),
+	tr:nth-child(4n-3) {
+		background: cornflowerblue;
+	}
+</style>
 <div class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
 		<h1>Arbetslivserfarenhet</h1>
 	</div>
 	<div class="content-rounded-panel">
 		<div>
-			<table class="table table-striped table-hover table-condensed">
-				<thead>
-					<tr>
-						<th><a style="cursor: pointer;">Titel</a></th>
-						<th><a style="cursor: pointer;">Start</a></th>
-						<th><a style="cursor: pointer;">Slut</a></th>
-						<th><a style="cursor: pointer;">Företag</a></th>
-						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">Roll</a></th>
-					</tr>
-				</thead>
-				<tbody>
-					{% for role in site.roles %}
+			<!-- <table class="table table-striped table-hover table-condensed">  -->
+			<div class="tablesaw-overflow">
+				<table cellspacing="5" class="tablesaw tablesaw-swipe" data-tablesaw-mode="columnToggle" data-tablesaw-minimap>
+
+					<thead>
 						<tr>
-							<td>{{role.title}}</td>
+							<th scope="col" colspan="2">
+								<a style="cursor: pointer;">Företag</a>
+							</th>
+							<th scope="col">
+								<a style="cursor: pointer;">Roll</a>
+							</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<a style="cursor: pointer;">Start</a>
+							</th>
+							<th scope="col">
+								<a style="cursor: pointer;">Slut</a>
+							</th>
+							<th scope="col">
+								<a style="cursor: pointer;">Tekniker</a>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for role in site.roles %}
+						<tr>
+							<td colspan="2">
+								<b>{{role.employer}}</b>
+							</td>
+							<td>{{role.description}}</td>
+						</tr>
+						<tr>
+
 							<td>{{role.start}}</td>
 							<td>{{role.end}}</td>
-							<td>{{role.employer}}</td>
-							<td class="hidden-sm hidden-xs" >{{role.description}}</td>
+							<td class="tools">{{role.tools}}</td>
 						</tr>
-					{% endfor %}
-				</tbody>
-			</table>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
 		</div>
 		<br>
 	</div>

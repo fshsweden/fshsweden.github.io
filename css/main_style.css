@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
 body {
-    background: url('../img/gray_jean.png');
+    background-color: aliceblue;
     padding-top: 40px;
     color: rgb(24, 24, 24);
 }

@@ -4,6 +4,9 @@
 
 <script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
 
+<script type="text/javascript" src="./js/tablesaw.jquery.js"></script>
+<script type="text/javascript" src="./js/tablesaw-init.js"></script>
+
 {% if site.blogfeed %}
 <script type="text/javascript">
     (function() {
@@ -29,7 +32,6 @@
     p.emphasis {
         background-color: beige;
     }
-    
     span.link {
         color: red;
         cursor: pointer;
@@ -46,7 +48,6 @@
         $(this).fadeOut(250, function() {});
         $(this).fadeIn (250, function() {});
         */
-
     });
 
     $("p").hover(function() {
