@@ -58,7 +58,7 @@ roles:
    start: Feb 17
    end: 
    employer: FSH Sweden AB
-   description: Utvecklar StockTips, ett övervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. 
+   description: Utvecklar StockTips, ett övervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. Systemet är skrivet huvudsakligen i Java     och hämtar priser från AMEX, NYSE, NASDAQ till en MySQ databas. Signalgenereringsprogram (också i Java) körs mot rådatat      och genererar köp och säljsignaler som sedan utvärderas och rankas. Ett Web-system gjort i Ruby on Rails används för att presentera datat för prenumererande kunder.
    tools: Linux, OSX, Windows, Java, Git, MySQL, Spring, JOOQ, Ruby on Rails, Wordpress
  - title: Programmerare
    start: Nov 16
@@ -88,7 +88,7 @@ roles:
    start: Apr 13
    end: Mar 14
    employer: FSH Sweden AB
-   description: Ett flertal mindre konsultuppdrag, men även en stor del fritid där jag bl.a lärde mig Ruby on Rails samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel
+   description: Ett flertal mindre konsultuppdrag, men även en stor del ledig där jag bl.a bestämde mig att lära mig Ruby on Rails på djupet, samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel.
    tools: Windows, OSX, Linux, Meteor, HTML, CSS
  - title: Programmerare
    start: Mar 10
@@ -99,7 +99,7 @@ roles:
  - title: Programmerare
    start: Jun 09
    end: Jan 10
-   employer:
+   employer: Not disclosed
    description: Deltog i designen av ett större tradingsystem. Systemet omfattade en generell tradingmodell som kan appliceras på alla elektroniska börser. Egenskaper värda att nämnas är realtidsvärdering av derivat mm samt riskhantering i realtid. Systemet kan dessutom hantera handel i olika valutor samt strukturerade konton/books, med s.k. hedging på flera nivåer. Konton kan hanteras av flera traders (stafettmodell) och därmed ge möjlighet till handel/riskhantering hela dygnet över hela världen. En avancerad distributionsmodell för priser/information ingår också. Systemet implementerades aldrig pga ändrade marknadsförutsättningar och minskade handelsvolymer.
    tools: Windows, Linux, Java, TCP/IP, SQL
  - title: Programmerare
@@ -119,21 +119,25 @@ roles:
    end: Dec 96
    employer: OM Technology AB
    description: Porterade OMex Click Trade från VAX/VMS till Windows NT 1.0. Modifierade och vidareutvecklade mjukvaran med handelsfunktioner för bl.a ränteoptioner. Blev systemansvarig för Click Trade i OMex-systemet. Deltog i försäljning av OMex till bl.a ASX i Sydney och CBOT och CME i Chicago.
+   tools: C++, MFC, VMS, Windows NT
  - title: Konsult, Projektledare
    start: Maj 91
    end: Maj 94
    employer: WM-Data Teknikkonsult AB
    description: Konsult I C/C++, bl.a mot Landstinget i Stockholm. Projektledare i ett flertal projekt, t.ex mot Rikspolisstyrelsen (ekonomienheten).
+   tools: Windows, C/C++, Visual C++
  - title: Konsult
    start: Okt 88
    end: Dec 90
    employer: Ardencia AB
    description: IT-konsult, huvudsakligen i C och C++. Produktutveckling för Bonniers, SIX, FinData, Nyhetsbyrån Direkt, Dagens Industri etc.
+   tools: Windows, C/C++, Netware
  - title: Konsult
    start: Apr 86
    end: Sep 88
    employer: Fyra Linjer AB
    description: Konsult, huvudsakligen i DataFlex, Turbo Pascal och C. Kunder var Landstinget, Ericsson, ODAB mfl. Utvecklade en editor för DataFlex som marknadsfördes och såldes av företaget
+   tools: DOS, Netware, C/C++, Turbo Pascal
 
 #Education is required
 education:
