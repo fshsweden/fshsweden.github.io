@@ -21,6 +21,7 @@ $table_row_color_2: #DBD3D8;
 $table_fg_color_2: white;
 
 body {
+    background: red;
 }
 
 html,
@@ -35,6 +36,7 @@ body {
 
 .spacer {
     height: 10px;
+    width: 100%;
 }
 
 table {
