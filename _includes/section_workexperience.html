@@ -1,29 +1,3 @@
-<style>
-	table {
-		font-size: 0.8em;
-	}
-
-	.tools {
-		text-decoration: aquamarine;
-		font-style: italic;
-	}
-
-	thead {
-		
-	}
-	th {
-		background: aliceblue;
-	}
-	tr:nth-child(4n),
-	tr:nth-child(4n-1) {
-		background: aliceblue;
-	}
-
-	tr:nth-child(4n-2),
-	tr:nth-child(4n-3) {
-		background:blanchedalmond;
-	}
-</style>
 <div class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
 		<h1>Arbetslivserfarenhet</h1>
@@ -34,27 +8,6 @@
 			<div class="tablesaw-overflow">
 				<table cellspacing="5" class="tablesaw tablesaw-swipe" data-tablesaw-mode="columnToggle" data-tablesaw-minimap>
 
-					<thead>
-						<tr>
-							<th scope="col" colspan="2">
-								<a style="cursor: pointer;">Företag</a>
-							</th>
-							<th scope="col">
-								<a style="cursor: pointer;">Roll</a>
-							</th>
-						</tr>
-						<tr>
-							<th scope="col">
-								<a style="cursor: pointer;">Start</a>
-							</th>
-							<th scope="col">
-								<a style="cursor: pointer;">Slut</a>
-							</th>
-							<th scope="col">
-								<a style="cursor: pointer;">Verktyg</a>
-							</th>
-						</tr>
-					</thead>
 					<tbody>
 						{% for role in site.roles %}
 						<tr>
@@ -69,6 +22,9 @@
 							<td>{{role.end}}</td>
 							<td class="tools">{{role.tools}}</td>
 						</tr>
+						<tr class="spacer">
+
+						</tr>
 						{% endfor %}
 					</tbody>
 				</table>
@@ -77,3 +33,4 @@
 		<br>
 	</div>
 </div>
+

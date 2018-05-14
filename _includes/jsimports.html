@@ -1,26 +1,28 @@
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
 
 <script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
 
 <script type="text/javascript" src="./js/tablesaw.jquery.js"></script>
 <script type="text/javascript" src="./js/tablesaw-init.js"></script>
 
-{% if site.blogfeed %}
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> {% if site.blogfeed %}
 <script type="text/javascript">
-    (function() {
+    (function () {
         $.ajax({
             url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent("{{site.blogfeed}}"),
             dataType: 'json',
-            success: function(data, textStatus, jqXHR) {
+            success: function (data, textStatus, jqXHR) {
                 if (data.responseData.feed && data.responseData.feed.entries) {
-                    $.each(data.responseData.feed.entries, function(i, e) {
+                    $.each(data.responseData.feed.entries, function (i, e) {
                         $('#blogArticles').append("<a target='_blank' href='" + e.link + "'>" + e.title + "</a><br><br>")
                     });
                 }
             },
-            error: function(jqXHR, textStatus, errorThrown) {
+            error: function (jqXHR, textStatus, errorThrown) {
                 // alert('log feed error ' + textStatus + ' ' + errorThrown);
             }
         });
@@ -32,6 +34,7 @@
     p.emphasis {
         background-color: beige;
     }
+
     span.link {
         color: red;
         cursor: pointer;
@@ -39,10 +42,9 @@
 </style>
 
 <script type="text/javascript">
-    $("#introBlurb").click(function() {
+    $("#introBlurb").click(function () {
         //alert( "Handler for .click() called." );
         //$(this).css('background-color', 'red');
-
 
         /*
         $(this).fadeOut(250, function() {});
@@ -50,34 +52,70 @@
         */
     });
 
-    $("p").hover(function() {
-
-
+    $("p").hover(function () {
         if ($(this).hasClass("emphasis"))
             $(this).removeClass("emphasis");
         else
             $(this).addClass("emphasis");
     });
 
-    $("span.where").hover(function() {
-
+    $("span.where").hover(function () {
         // console.log("SPAN!")
-
         if ($(this).hasClass("link"))
             $(this).removeClass("link");
         else
             $(this).addClass("link");
     });
 
-    $("span.label").hover(function() {
+    $("span.label").hover(function () {
         $(this).animate({
             height: "2em"
         });
     });
 
-    $(function() {
+    $(function () {
         // $(document).tooltip();
     });
-</script>
 
-{% endif %}
+
+    $(document).ready(function () {
+        $('.image-carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            variableWidth: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    });
+
+</script> {% endif %}
