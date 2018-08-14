@@ -47,6 +47,7 @@ skills:
  - SQLite
  - REST
  - Api-design
+ - Python
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
@@ -187,7 +188,5 @@ apps:
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
    Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan.
-   Kommer aldrig överge Ruby, men har nyligen gjort flera saker i JS (men tackolov att Coffeescript/ES6/Typescript finns). Främst Angular, React och Meteor.
-   Dessutom är jag tillräckligt erfaren för att se igenom klyschor som "hungrig" och "brinner för programmering". Jag
-   skulle vilja fråga hur ofta man frågar om en elektriker "brinner" för sitt jobb? Eller om en kock 
-   fortfarande är "hungrig"? Tycker man skall koncentrera sig på att vara kompetent på sitt yrke istället.
+   Kommer aldrig överge Ruby, men har nyligen gjort flera saker i JS (men tackolov att Coffeescript/ES6/Typescript finns). Främst Angular, React och Meteor. Sugen på att lära mig mer.
+
