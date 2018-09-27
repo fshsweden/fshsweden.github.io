@@ -1,8 +1,8 @@
 # Site settings
 
-title:  Peter_Andersson
-twitter_username:  fshsweden
-name:  Peter Andersson
+title: Peter_Andersson
+twitter_username: fshsweden
+name: Peter Andersson
 
 # Build settings
 markdown: kramdown
@@ -10,44 +10,44 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: Blog
-   url: http://blogg.fsh.se
- - title: GitHub
-   url: https://github.com/fshsweden
- - title: StackOverflow
-   url: http://stackoverflow.com/users/587238/peter-andersson
- - title: DZone
-   url: https://dzone.com/users/405821/fshsweden.html
- - title: LinkedIn
-   url: https://www.linkedin.com/in/peterandersson
+  - title: Blog
+    url: http://blogg.fsh.se
+  - title: GitHub
+    url: https://github.com/fshsweden
+  - title: StackOverflow
+    url: http://stackoverflow.com/users/587238/peter-andersson
+  - title: DZone
+    url: https://dzone.com/users/405821/fshsweden.html
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/peterandersson
 
 #Any buzzword skills you want to include
 skills:
- - Java
- - Linux
- - Ruby on Rails
- - Javascript
- - Coffeescript
- - Typescript
- - C#
- - MS Azure
- - MS Service Fabric
- - MS ASP MVC
- - MS Web API
- - Groovy
- - JQuery
- - React
- - Angular
- - Node.js
- - Maven
- - Ant
- - Gradle
- - MySQL
- - Postgres
- - SQLite
- - REST
- - Api-design
- - Python
+  - Java
+  - Linux
+  - Ruby on Rails
+  - Javascript
+  - Coffeescript
+  - Typescript
+  - C#
+  - MS Azure
+  - MS Service Fabric
+  - MS ASP MVC
+  - MS Web API
+  - Groovy
+  - JQuery
+  - React
+  - Angular
+  - Node.js
+  - Maven
+  - Ant
+  - Gradle
+  - MySQL
+  - Postgres
+  - SQLite
+  - REST
+  - Api-design
+  - Python
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
@@ -55,97 +55,97 @@ blogfeed: https://fsh.se/feed
 
 #Work experience is required
 roles:
- - title: Programmerare/Designer
-   start: Feb 17
-   end: 
-   employer: FSH Sweden AB
-   description: Utvecklar <a href="http://stocktips.dnsalias.com:3838">StockTips</a>, ett övervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. Systemet är skrivet huvudsakligen i Java     och hämtar priser från AMEX, NYSE, NASDAQ till en MySQ databas. Signalgenereringsprogram (också i Java) körs mot rådatat      och genererar köp och säljsignaler som sedan utvärderas och rankas. Ett Web-system gjort i Ruby on Rails används för att presentera datat för prenumererande kunder.
-   tools: Linux, OSX, Windows, Java, Git, MySQL, Spring, JOOQ, Ruby on Rails, Wordpress
- - title: Programmerare
-   start: Nov 16
-   end: Jan 17
-   employer: <a target="_blank" href="https://loanstep.se/">SaveLend AB</a>
-   description: Hjälpte till med leverans av försenat system + systemdokumentation
-   tools: Windows, C#, .NET, Azure, Git, CI, TDD
- - title: Programmerare
-   start: Jun 16
-   end: Sep 16
-   employer: Crozet AB
-   description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>, <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc.
-   tools: Windows, OSX, Linux, Java, Swing, JPA, Hibernate, MySQL, Git
- - title: Systemanalys av säljverktyg
-   start: Apr 16
-   end: Maj 16
-   employer: Gadder AB
-   tools: Windows, iOS, Android, Java, Objective-C, PHP, Git, HTML, CSS
-   description: Analyserade ett existerande system i PHP/Android-Java/IOS-ObjC och identifierade svagheter och utfärdade rekommendation för hur fortsatt utveckling skulle ske
- - title: Programmerare.
-   start: Apr 14
-   end: Apr 16
-   employer: Crozet AB
-   description: Alpha Trading - an automatic stock and futures trading system. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>,     <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc.
-   tools: Windows, OSX, Linux, Java, Swing, JPA, Hibernate, MySQL, Git
- - title: Programmerare
-   start: Apr 13
-   end: Mar 14
-   employer: FSH Sweden AB
-   description: Ett flertal mindre konsultuppdrag, men även en stor del ledig där jag bl.a bestämde mig att lära mig Ruby on Rails på djupet, samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel.
-   tools: Windows, OSX, Linux, Meteor, HTML, CSS
- - title: Programmerare
-   start: Mar 10
-   end: Mar 13
-   employer: Jones Borreguero Inversiones SL, Madrid
-   description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på <a target="_blank" href="http://www.meff.es/esp/Home">MEFF-börsen</a> i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med <a target="_blank" href="https://www.itiviti.com/products-services/products/orc-trader-itiviti/">Orc Trader</a> (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (<a target="_blank" href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black&Scholes</a> och <a target="_blank" href="https://en.wikipedia.org/wiki/Binomial_options_pricing_model">Binomial tree model</a>) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (<a target="_blank" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a>). Användes I produktion mellan Jan 11 och våren 14. Språk och miljöer var OSX, Java, Swing, MySQL
-   tools: OSX, Linux, Java, TCP/IP
- - title: Programmerare
-   start: Jun 09
-   end: Jan 10
-   employer: Not disclosed
-   description: Deltog i designen av ett större tradingsystem. Systemet omfattade en generell tradingmodell som kan appliceras på alla elektroniska börser. Egenskaper värda att nämnas är realtidsvärdering av derivat mm samt riskhantering i realtid. Systemet kan dessutom hantera handel i olika valutor samt strukturerade konton/books, med s.k. hedging på flera nivåer. Konton kan hanteras av flera traders (stafettmodell) och därmed ge möjlighet till handel/riskhantering hela dygnet över hela världen. En avancerad distributionsmodell för priser/information ingår också. Systemet implementerades aldrig pga ändrade marknadsförutsättningar och minskade handelsvolymer.
-   tools: Windows, Linux, Java, TCP/IP, SQL
- - title: Programmerare
-   start: Jan 06
-   end: Maj 09
-   employer: 68 Technologies AB
-   description: Designade och implementerade ett “Home Control” system med video streaming. Ledde ett team på 5 personer, varav 3 kinesiska konsulter i implementationen av främst nätverksdelen, servrarna, meddellandeprotokollet och klient-API:et. Systemet vidareutvecklades senare till qrodo.com, som sände live-video från bl.a. svenska speedwayserien, bordtennis, badminton med mera med mera. Qrodo.com lades ner 15.
-   tools: Windows, TCP/IP, Multiuser, Video streaming, IoT
- - title: Programmerare
-   start: Jan 97
-   end: Dec 05
-   employer: FSH Zug AG / FSH Sweden AB
-   description: Designade, implementerade och skötte driften av ett avancerat fleranvändasystem för handel av derivat. C:a 10 användare på två kontor, Zug (Schweiz) och Madrid (Spanien).  Riskhantering I realtid, flera automathandelsapplikationer samt en vid den tiden världsledande handlarapplikation. Första 5 åren i Schweiz, resten i Gävle.
-   tools: Windows, TCP/IP, MS SQL Server
- - title: Systemansvarig för OM:s (numera NASDAQ) handlarapplikation på Windows (“Click Trade”)
-   start: Maj 94
-   end: Dec 96
-   employer: OM Technology AB
-   description: Porterade OMex Click Trade från VAX/VMS till Windows NT 1.0. Modifierade och vidareutvecklade mjukvaran med handelsfunktioner för bl.a ränteoptioner. Blev systemansvarig för Click Trade i OMex-systemet. Deltog i försäljning av OMex till bl.a ASX i Sydney och CBOT och CME i Chicago.
-   tools: C++, MFC, VMS, Windows NT
- - title: Konsult, Projektledare
-   start: Maj 91
-   end: Maj 94
-   employer: WM-Data Teknikkonsult AB
-   description: Konsult I C/C++, bl.a mot Landstinget i Stockholm. Projektledare i ett flertal projekt, t.ex mot Rikspolisstyrelsen (ekonomienheten).
-   tools: Windows, C/C++, Visual C++
- - title: Konsult
-   start: Okt 88
-   end: Dec 90
-   employer: Ardencia AB
-   description: IT-konsult, huvudsakligen i C och C++. Produktutveckling för Bonniers, SIX, FinData, Nyhetsbyrån Direkt, Dagens Industri etc.
-   tools: Windows, C/C++, Netware
- - title: Konsult
-   start: Apr 86
-   end: Sep 88
-   employer: Fyra Linjer AB
-   description: Konsult, huvudsakligen i DataFlex, Turbo Pascal och C. Kunder var Landstinget, Ericsson, ODAB mfl. Utvecklade en editor för DataFlex som marknadsfördes och såldes av företaget
-   tools: DOS, Netware, C/C++, Turbo Pascal
+  - title: Programmerare/Designer
+    start: Feb 17
+    ? end
+    employer: FSH Sweden AB
+    description: Utvecklar <a href="http://stocktips.dnsalias.com:3838">StockTips</a>, ett övervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. Systemet är skrivet huvudsakligen i Java     och hämtar priser från AMEX, NYSE, NASDAQ till en MySQ databas. Signalgenereringsprogram (också i Java) körs mot rådatat      och genererar köp och säljsignaler som sedan utvärderas och rankas. Ett Web-system gjort i Ruby on Rails används för att presentera datat för prenumererande kunder.
+    tools: Linux, OSX, Windows, Java, Git, MySQL, Spring, JOOQ, Ruby on Rails, Wordpress
+  - title: Programmerare
+    start: Nov 16
+    end: Jan 17
+    employer: <a target="_blank" href="https://loanstep.se/">SaveLend AB</a>
+    description: Hjälpte till med leverans av försenat system + systemdokumentation
+    tools: Windows, C#, .NET, Azure, Git, CI, TDD
+  - title: Programmerare
+    start: Jun 16
+    end: Sep 16
+    employer: Crozet AB
+    description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>, <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc.
+    tools: Windows, OSX, Linux, Java, Swing, JPA, Hibernate, MySQL, Git
+  - title: Systemanalys av säljverktyg
+    start: Apr 16
+    end: Maj 16
+    employer: Gadder AB
+    tools: Windows, iOS, Android, Java, Objective-C, PHP, Git, HTML, CSS
+    description: Analyserade ett existerande system i PHP/Android-Java/IOS-ObjC och identifierade svagheter och utfärdade rekommendation för hur fortsatt utveckling skulle ske
+  - title: Programmerare.
+    start: Apr 14
+    end: Apr 16
+    employer: Crozet AB
+    description: Alpha Trading - an automatic stock and futures trading system. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>,     <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc.
+    tools: Windows, OSX, Linux, Java, Swing, JPA, Hibernate, MySQL, Git
+  - title: Programmerare
+    start: Apr 13
+    end: Mar 14
+    employer: FSH Sweden AB
+    description: Ett flertal mindre konsultuppdrag, men även en stor del ledig där jag bl.a bestämde mig att lära mig Ruby on Rails på djupet, samt ett flertal Javascript-verktyg och olika ramverk som Meteor och Laravel.
+    tools: Windows, OSX, Linux, Meteor, HTML, CSS
+  - title: Programmerare
+    start: Mar 10
+    end: Mar 13
+    employer: Jones Borreguero Inversiones SL, Madrid
+    description: Skapade en helautomatisk handlarapplikation som handlade IBEX-optioner på <a target="_blank" href="http://www.meff.es/esp/Home">MEFF-börsen</a> i Madrid. Designade och implementerade en standalone Java applikation som kommunicerade med <a target="_blank" href="https://www.itiviti.com/products-services/products/orc-trader-itiviti/">Orc Trader</a> (via Orc Protocol) och MEFF med hjälp av  FIX 4.4. Hanterade parametersättning från Orc Trader och beräknade teoretiska priser (<a target="_blank" href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black&Scholes</a> och <a target="_blank" href="https://en.wikipedia.org/wiki/Binomial_options_pricing_model">Binomial tree model</a>) på alla optioner. Exekverade orders automatiskt när möjlighet fanns att tjäna riskfria pengar (<a target="_blank" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a>). Användes I produktion mellan Jan 11 och våren 14. Språk och miljöer var OSX, Java, Swing, MySQL
+    tools: OSX, Linux, Java, TCP/IP
+  - title: Programmerare
+    start: Jun 09
+    end: Jan 10
+    employer: Not disclosed
+    description: Deltog i designen av ett större tradingsystem. Systemet omfattade en generell tradingmodell som kan appliceras på alla elektroniska börser. Egenskaper värda att nämnas är realtidsvärdering av derivat mm samt riskhantering i realtid. Systemet kan dessutom hantera handel i olika valutor samt strukturerade konton/books, med s.k. hedging på flera nivåer. Konton kan hanteras av flera traders (stafettmodell) och därmed ge möjlighet till handel/riskhantering hela dygnet över hela världen. En avancerad distributionsmodell för priser/information ingår också. Systemet implementerades aldrig pga ändrade marknadsförutsättningar och minskade handelsvolymer.
+    tools: Windows, Linux, Java, TCP/IP, SQL
+  - title: Programmerare
+    start: Jan 06
+    end: Maj 09
+    employer: 68 Technologies AB
+    description: Designade och implementerade ett “Home Control” system med video streaming. Ledde ett team på 5 personer, varav 3 kinesiska konsulter i implementationen av främst nätverksdelen, servrarna, meddellandeprotokollet och klient-API:et. Systemet vidareutvecklades senare till qrodo.com, som sände live-video från bl.a. svenska speedwayserien, bordtennis, badminton med mera med mera. Qrodo.com lades ner 15.
+    tools: Windows, TCP/IP, Multiuser, Video streaming, IoT
+  - title: Programmerare
+    start: Jan 97
+    end: Dec 05
+    employer: FSH Zug AG / FSH Sweden AB
+    description: Designade, implementerade och skötte driften av ett avancerat fleranvändasystem för handel av derivat. C:a 10 användare på två kontor, Zug (Schweiz) och Madrid (Spanien).  Riskhantering I realtid, flera automathandelsapplikationer samt en vid den tiden världsledande handlarapplikation. Första 5 åren i Schweiz, resten i Gävle.
+    tools: Windows, TCP/IP, MS SQL Server
+  - title: Systemansvarig för OM:s (numera NASDAQ) handlarapplikation på Windows (“Click Trade”)
+    start: Maj 94
+    end: Dec 96
+    employer: OM Technology AB
+    description: Porterade OMex Click Trade från VAX/VMS till Windows NT 1.0. Modifierade och vidareutvecklade mjukvaran med handelsfunktioner för bl.a ränteoptioner. Blev systemansvarig för Click Trade i OMex-systemet. Deltog i försäljning av OMex till bl.a ASX i Sydney och CBOT och CME i Chicago.
+    tools: C++, MFC, VMS, Windows NT
+  - title: Konsult, Projektledare
+    start: Maj 91
+    end: Maj 94
+    employer: WM-Data Teknikkonsult AB
+    description: Konsult I C/C++, bl.a mot Landstinget i Stockholm. Projektledare i ett flertal projekt, t.ex mot Rikspolisstyrelsen (ekonomienheten).
+    tools: Windows, C/C++, Visual C++
+  - title: Konsult
+    start: Okt 88
+    end: Dec 90
+    employer: Ardencia AB
+    description: IT-konsult, huvudsakligen i C och C++. Produktutveckling för Bonniers, SIX, FinData, Nyhetsbyrån Direkt, Dagens Industri etc.
+    tools: Windows, C/C++, Netware
+  - title: Konsult
+    start: Apr 86
+    end: Sep 88
+    employer: Fyra Linjer AB
+    description: Konsult, huvudsakligen i DataFlex, Turbo Pascal och C. Kunder var Landstinget, Ericsson, ODAB mfl. Utvecklade en editor för DataFlex som marknadsfördes och såldes av företaget
+    tools: DOS, Netware, C/C++, Turbo Pascal
 
 #Education is required
 education:
- - level:
-   date:
-   subject:
-   school:
+  - ? level
+    ? date
+    ? subject
+    ? school
 
 #This section is optional (as is the image link below)
 #coursera:
@@ -162,12 +162,12 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - fshsweden/ib-ruby
- - fshsweden/FinTools
- - fshsweden/gui
- - fshsweden/IB-api-972-beta-feb03-modified
- - fshsweden/java_meteor_example
- - fshsweden/meteor_example
+  - fshsweden/ib-ruby
+  - fshsweden/FinTools
+  - fshsweden/gui
+  - fshsweden/IB-api-972-beta-feb03-modified
+  - fshsweden/java_meteor_example
+  - fshsweden/meteor_example
 
 #Stackoverflow flair is optional
 #stackoverflow:
@@ -176,17 +176,16 @@ github:
 
 #Mobile apps section is optional
 apps:
- - name: Valbo HC Istider 12 (now removed from AppStore)
-   platform: IOS
-   url:
-   description: Ett system för att se bokningar av Valbo ishall
- - name: Flappy Felipe (now removed from AppStore)
-   platform: IOS
-   url:
-   description: En enkel Flappy Birds-klon
+  - name: Valbo HC Istider 12 (now removed from AppStore)
+    platform: IOS
+    ? url
+    description: Ett system för att se bokningar av Valbo ishall
+  - name: Flappy Felipe (now removed from AppStore)
+    platform: IOS
+    ? url
+    description: En enkel Flappy Birds-klon
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan.
-   Kommer aldrig överge Ruby, men har nyligen gjort flera saker i JS (men tackolov att Coffeescript/ES6/Typescript finns). Främst Angular, React och Meteor. Sugen på att lära mig mer.
-
+  Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan.
+  Kommer aldrig överge Ruby, men har nyligen gjort flera saker i JS (men tackolov att Coffeescript/ES6/Typescript finns). Främst Vue, React och Meteor. Sugen på att lära mig mer.
