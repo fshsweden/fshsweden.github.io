@@ -55,9 +55,15 @@ blogfeed: https://fsh.se/feed
 
 #Work experience is required
 roles:
+  - title: Programmerare/Arkitekt
+    start: Sep 18
+    end: Oct 18
+    employer: Accessify AB
+    description: Utvecklar en applikation i Python 3 på Raspberry Pi. Applikationen läser av QR-koder via en kamera, och kontrollerar access mot en backend.
+    tools: Linux, Git, Python, REST, OpenCV
   - title: Programmerare/Designer
     start: Feb 17
-    ? end
+    end: 
     employer: FSH Sweden AB
     description: Utvecklar <a href="http://stocktips.dnsalias.com:3838">StockTips</a>, ett övervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. Systemet är skrivet huvudsakligen i Java     och hämtar priser från AMEX, NYSE, NASDAQ till en MySQ databas. Signalgenereringsprogram (också i Java) körs mot rådatat      och genererar köp och säljsignaler som sedan utvärderas och rankas. Ett Web-system gjort i Ruby on Rails används för att presentera datat för prenumererande kunder.
     tools: Linux, OSX, Windows, Java, Git, MySQL, Spring, JOOQ, Ruby on Rails, Wordpress
