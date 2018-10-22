@@ -59,26 +59,30 @@ roles:
     start: Sep 18
     end: Oct 18
     employer: Accessify AB
-    description: Utvecklar en applikation i Python 3 på Raspberry Pi. Applikationen läser av QR-koder via en kamera, och kontrollerar access mot en backend.
+    description: Utvecklar en applikation i Python 3 på Raspberry Pi. Applikationen läser av QR-koder via en kamera, och kontrollerar access mot en backend. Dessutom en experimentell version av ansikts-/objektigenkänning mha OpenCV.
     tools: Linux, Git, Python, REST, OpenCV
+
   - title: Programmerare/Designer
     start: Feb 17
     end: 
-    employer: FSH Sweden AB
+    employer: Crozet AB
     description: Utvecklar <a href="http://stocktips.dnsalias.com:3838">StockTips</a>, ett övervakningsverktyg för amerikanska börser som hittar tradingmöjligheter med hjälp av teknisk analys. Systemet är skrivet huvudsakligen i Java     och hämtar priser från AMEX, NYSE, NASDAQ till en MySQ databas. Signalgenereringsprogram (också i Java) körs mot rådatat      och genererar köp och säljsignaler som sedan utvärderas och rankas. Ett Web-system gjort i Ruby on Rails används för att presentera datat för prenumererande kunder.
     tools: Linux, OSX, Windows, Java, Git, MySQL, Spring, JOOQ, Ruby on Rails, Wordpress
+
   - title: Programmerare
     start: Nov 16
     end: Jan 17
     employer: <a target="_blank" href="https://loanstep.se/">SaveLend AB</a>
     description: Hjälpte till med leverans av försenat system + systemdokumentation
     tools: Windows, C#, .NET, Azure, Git, CI, TDD
+
   - title: Programmerare
     start: Jun 16
     end: Sep 16
     employer: Crozet AB
     description: Alpha Trading del 2 - ett helautomatiskt handelssystem för aktier och futures. <a target="_blank" href="http://www.nasdaq.com/">NASDAQ</a>, <a target="_blank" href="https://www.nyse.com/index">NYSE</a>, <a target="_blank" href="https://www.nyse.com/markets/nyse-american">AMEX</a>, <a target="_blank" href="http://www.nasdaqomxnordic.com/">SFB</a> etc.
     tools: Windows, OSX, Linux, Java, Swing, JPA, Hibernate, MySQL, Git
+    
   - title: Systemanalys av säljverktyg
     start: Apr 16
     end: Maj 16
