@@ -4,6 +4,12 @@ title: Peter_Andersson
 twitter_username: fshsweden
 name: Peter Andersson
 
+baseurl: ""
+languages: ["sv","en"]
+
+#exclude_from_localizations: ["javascript", "images", "css"]
+
+
 # Build settings
 markdown: kramdown
 
@@ -196,6 +202,4 @@ apps:
     description: En enkel Flappy Birds-klon
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
-  Jag är mycket intresserad av programspråk/ramverk och miljöer, så jag tittar på så många jag kan.
-  Kommer aldrig överge Ruby, men har nyligen gjort flera saker i JS (men tackolov att Coffeescript/ES6/Typescript finns). Främst Vue, React och Meteor. Sugen på att lära mig mer.
+

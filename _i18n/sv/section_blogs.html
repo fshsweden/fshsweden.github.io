@@ -1,13 +1,13 @@
-{% if site.additionalinfo %}
-	<div class="rounded_panel txt_lightgrey">
+{% if site.blogfeed %}
+	<div id="blogBubble" class="rounded_panel txt_lightgrey">
 		<div class="top-rounded-panel grey-bg">
-			<h1>Övrigt</h1>
+			<h1>Blogginlägg</h1>
 		</div>
 		<div class="content-rounded-panel">
-			<div>
-				{{site.additionalinfo}}
+			<div id="blogArticles">
 			</div>
 			<br>
 		</div>
 	</div>
 {% endif %}
+
