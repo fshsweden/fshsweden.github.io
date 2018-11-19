@@ -1,3 +1,4 @@
-_site
+# note Removed _site since we use that subdir
+# as www root
 .sass-cache
 .jekyll-metadata
