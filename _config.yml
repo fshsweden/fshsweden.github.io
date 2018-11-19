@@ -8,8 +8,8 @@ baseurl: ""
 languages: ["sv","en"]
 
 #exclude_from_localizations: ["javascript", "images", "css"]
-plugins: 
-  - jekyll-multiple-languages-plugin
+plugins:
+ - jekyll-multiple-languages-plugin
 
 # Build settings
 markdown: kramdown
