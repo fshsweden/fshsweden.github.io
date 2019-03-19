@@ -69,10 +69,10 @@
                 flyttat hemifrån).</p>
 
             <p>Jag har ett stort intresse för mitt yrke och spenderar en stor del av min fritid att lära mig nya saker. Det
-                är få miljöer/språk jag inte hunnit titta på. Mina personliga favoriter är Java och Ruby på OSX eller Linux,
+                är få miljöer/språk jag inte hunnit titta på. Mina personliga favoriter är Java,Ruby och Python på OSX eller Linux,
                 men jag kan även jobba med C#/.Net på Windows. I Webbmiljö föredrar jag Ruby on Rails som backend, med
-                JS/Typescript på klienten. Alternativt fullstack-ramverk som Meteor. Det senaste språket jag lärde mig var 
-                Python. I detta språk har jag jobbat en del med OpenCV för tolkning av QR-koder, samt ansikts- och objekt-
+				JS/Typescript på klienten. Gillar även Java Spring Boot eller fullstack-ramverk som Meteor. 
+				Det har blivit mycket Pythomn på sistone. Bl.a har jag jobbat en del med OpenCV för tolkning av QR-koder, samt ansikts- och objekt-
                 igenkänning. Väldigt intressant och skulle gärna fortsätta med det. </p>
             <p>
                 Har även jobbat en hel del på PHP på senare tid pga Wordpress. Jag kan bygga teman, plugins och 
@@ -93,7 +93,8 @@
                 <li>Linux/OSX</li>
                 <li>Kommunikation, nätverk, TCP, DNS, routing</li>
                 <li>Java SE samt Java EE (numera Apache Jakarta EE)</li>
-                <li>Ruby on Rails</li>
+                <li>Ruby, och Ruby on Rails</li>
+		        <li>Python</li>
                 <li>HTML/CSS</li>
                 <li>Javascript (ES6, Typescript, Coffeescript)</li>
                 <li>Git och andra versionshanteringssystem</li>
@@ -109,7 +110,6 @@
                 <li>C#</li>
                 <li>.Net (Core) inklusive ASP.Net MVC</li>
                 <li>TDD</li>
-		        <li>Python</li>
                 <li>PHP</li>
             </ul>
 
@@ -144,8 +144,8 @@ TCP/IP.</p>
     <p>Jag har gjort mobila native-appar i iOS(Swift), Android (Java) samt 
        Appcellerator (multiplatform) och Xamarin. </p>
 
-    <p>Jag gjorde en app som publicerades på AppStore åt Valbo Hockey. Den visade 
-        bokningsdata från en databas.
+    <p>De flesta för eget behov, men jag gjorde en iPhone-app som publicerades på AppStore åt Valbo Hockey. Den visade 
+        bokningsdata från en databas för bokning av ishallen.
     </p>
 
 <h3>Specialkunskaper</h3>
@@ -169,6 +169,9 @@ TCP/IP.</p>
         <img src="img/00.png">
 </fieldset>
         
+<h3>React JS och React Native</h3>
+
+<div id="like_button_container"></div>
 
 <h3>Övrigt</h3>
 
@@ -259,12 +262,24 @@ TCP/IP.</p>
 							<td colspan="2">
 								<b>Accessify AB</b>
 							</td>
+							<td>Projektledare/arkitekt för ett nytt helautomatiskt shoppingsystem. Detaljer endast på förfrågan.</td>
+						</tr>
+						<tr>
+							<td>Mar 19</td>
+							<td></td>
+							<td class="tools">Web, Linux, IOS, Android, Python, REST, OpenCV, Java</td>
+						</tr>
+						<tr class="spacer">
+
+						<tr>
+							<td colspan="2">
+								<b>Accessify AB</b>
+							</td>
 							<td>Utvecklar en applikation i Python 3 på Raspberry Pi. Applikationen läser av QR-koder via en kamera, och kontrollerar access mot en backend. Dessutom en experimentell version av ansikts-/objektigenkänning mha OpenCV.</td>
 						</tr>
 						<tr>
-
 							<td>Sep 18</td>
-							<td>Oct 18</td>
+							<td>Jan 19</td>
 							<td class="tools">Linux, Git, Python, REST, OpenCV</td>
 						</tr>
 						<tr class="spacer">
@@ -732,6 +747,15 @@ TCP/IP.</p>
     });
 
 </script> 
+
+<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
 </body>
 
 </html>
